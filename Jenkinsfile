@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        echo 'Hello World'
+        git(url: 'https://github.com/createdbyloid/Test', branch: 'main')
       }
     }
 

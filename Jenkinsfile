@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Test') {
+    stage('Checkout Code') {
       steps {
         git(url: 'https://github.com/createdbyloid/Test', branch: 'main')
       }

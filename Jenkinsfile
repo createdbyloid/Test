@@ -7,5 +7,17 @@ pipeline {
       }
     }
 
+    stage('Test') {
+      steps {
+        echo 'This should be test'
+      }
+    }
+
+    stage('Build') {
+      steps {
+        sh 'ls -a'
+      }
+    }
+
   }
 }

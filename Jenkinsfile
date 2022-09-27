@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git(url: 'https://github.com/createdbyloid/Test', branch: 'main')
+        git(url: 'https://github.com/createdbyloid/Test.git', branch: 'main')
       }
     }
 

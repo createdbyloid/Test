@@ -4,6 +4,7 @@ pipeline {
     stage('Checkout Code') {
       steps {
         git(url: 'https://github.com/createdbyloid/Test.git', branch: 'main')
+        git(url: 'git@github.com:createdbyloid/Test.git', branch: 'main')
       }
     }
 

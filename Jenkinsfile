@@ -32,8 +32,4 @@ pipeline {
     }
 
   }
-  environment {
-    DOCKERHUB_USER = 'createdbyloid'
-    DOCKERHUB_PASS = 'DockerHub48'
-  }
 }
